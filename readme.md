@@ -12,16 +12,23 @@ Vernon is yet another stub or "boilerplate" project for react, this time for rea
 
 then, having done that, you can run
 
-    npm run watch # in one tab
-    npm run start # in another
+    npm run watch # in one tab, recompiles your js
+    npm run start # in another, runs a static web server
 
-and then, if `http-server` did its thing
+and then, if `http-server` did its thing, a browser should open up with the page. you still need to reload it, like a savage, though.
+
+#### entrypoints
+
+If you're testing a component, you can either modify `src/components/main.jsx` directly, or you can create your own and modify `src/main.js`.
+
+style components at `web/style/style.css` with plain css.
 
 ### shortcomings
 
 i'd rather this were using react hot loader or pretty much anything else. as it is, i'm basically using this instead of jsfiddle.
 
+also maybe some sort of css polyfill or what have you.
 
 ### "license"
 
-lol, mit.
+lol, CC0.
