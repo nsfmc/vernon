@@ -19,4 +19,9 @@ and then, if `http-server` did its thing
 
 ### shortcomings
 
-i'd rather this were using react hot
+i'd rather this were using react hot loader or pretty much anything else. as it is, i'm basically using this instead of jsfiddle.
+
+
+### "license"
+
+lol, mit.
