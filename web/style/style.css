@@ -1,1 +1,17 @@
+/*
+  sandbox mode:
+  this makes whatever your main element is centered on the page
+*/
+html {
+  background-color: #eaeeee;
+}
+
+body {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+
 /* put your css here */
