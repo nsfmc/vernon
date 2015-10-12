@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "yet another react stub project",
   "scripts": {
-    "watch": "watchify -t babelify src/main.js -o web/build/bundle.js -v",
+    "watch": "watchify -t babelify src/main.js -o web/build/bundle.js -d",
     "start": "http-server web -o"
   },
   "author": "Marcos Ojeda <marcos@generic.cx> (http://generic.cx/)",
