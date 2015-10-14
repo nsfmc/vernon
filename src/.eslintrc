@@ -1,6 +1,4 @@
 {
     "extends": ["standard", "standard-react"],
-    "standard": {
-      "parser": "babel-eslint"
-    }
+    "parser": "babel-eslint"
 }
