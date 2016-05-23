@@ -6,7 +6,7 @@
 
 ## What this is
 
-Vernon is yet another stub or "boilerplate" project for react, this time for react 0.14.0 + babel + eslint (w/ 'standard' config) and watchify set up. I am 100% sure somebody else has done this before, so don't feel compelled to use it at all.
+Vernon is yet another stub or "boilerplate" project for react, this time for react 0.15.0 + babel + css modules (but not autoprefixer, yet) + eslint (w/ 'standard' config) and watchify set up. I am 100% sure somebody else has done this before, so don't feel compelled to use it at all.
 
 ### getting set up
 

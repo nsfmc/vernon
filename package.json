@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "yet another react stub project",
   "scripts": {
-    "watch": "watchify -t babelify src/main.js -o web/build/bundle.js -d",
+    "watch": "watchify -p [ css-modulesify -o web/build/style.css ] -t babelify src/main.js -o web/build/bundle.js -d",
     "start": "http-server web -o"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0",
+    "css-modulesify": "^0.24.0",
     "eslint": "^2.2.0",
     "eslint-config-standard": "^5.1.0",
     "eslint-config-standard-react": "^2.3.0",
