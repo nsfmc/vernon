@@ -1,3 +1,4 @@
 node_modules
 web/build/bundle.js
+web/build/vendor.js
 web/build/style.css
